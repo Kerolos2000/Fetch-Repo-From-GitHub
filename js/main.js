@@ -28,8 +28,8 @@ btn.addEventListener("click",function(){
                 `<tr>
                     <th class="col">${i+1}</th>
                     <td class="col">${repositories[i].name}</td>
-                    <td class="col"><a class="btn btn-outline-info" target="_blank" href="${repositories[i].html_url}">visit</a></td>
-                    <td class="col"><a class="btn btn-outline-info" target="_blank" href="https://kerolos2000.github.io/${repositories[i].name}">visit</a></td>
+                    <td class="col"><a class="btn visit" target="_blank" href="${repositories[i].html_url}">visit</a></td>
+                    <td class="col"><a class="btn visit" target="_blank" href="https://kerolos2000.github.io/${repositories[i].name}">visit</a></td>
                     <td class="col">${repositories[i].stargazers_count}</td>
                 </tr>`;
             }
